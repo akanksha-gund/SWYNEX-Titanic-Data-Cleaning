@@ -1,10 +1,13 @@
-# Titanic Dataset Cleaning Project
+# Titanic Dataset Cleaning & Exploratory Data Analysis Project
 
 ## Project Overview
 
-This project demonstrates data cleaning using Python and Pandas on the Titanic dataset.
+This project demonstrates data cleaning and exploratory data analysis (EDA) using Python and Pandas on the Titanic dataset.
 
-The dataset was checked for missing values, duplicate records, data types, and categorical values.
+The project is divided into two tasks:
+
+- Task 1 – Data Cleaning
+- Task 2 – Exploratory Data Analysis (EDA)
 
 ## Dataset
 
@@ -14,8 +17,13 @@ The Titanic dataset was obtained from the public Seaborn dataset repository.
 
 - Python
 - Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 - Google Colab
 - GitHub
+
+# Task 1 – Data Cleaning
 
 ## Data Quality Checks
 
@@ -45,7 +53,7 @@ Categorical columns were converted from `object` to `category` data type.
 
 ### 4. Categorical Values
 
-Categorical columns were checked for inconsistent values. No inconsistent categorical labels were found in the inspected data.
+Categorical columns were checked for inconsistent values.
 
 ## Final Result
 
@@ -54,12 +62,31 @@ After cleaning:
 - Missing values: 0
 - Duplicate records: 0
 
-The cleaned dataset is available as:
+# Task 2 – Exploratory Data Analysis (EDA)
 
-`cleaned_titanic.csv`
+This task focuses on Exploratory Data Analysis of the Titanic dataset using Python.
+
+## Analysis Performed
+
+- Survival analysis
+- Gender and passenger class analysis
+- Age and fare analysis
+- Embarkation analysis
+- Family-size analysis
+- Correlation analysis
+- Outlier analysis
+- Data visualization
+- Key insights and conclusions
+
+## Task 2 Notebook
+
+The complete EDA analysis is available in:
+
+`Titanic_EDA_Task2.ipynb`
 
 ## Files
 
-- `original_titanic.csv` - Original dataset
-- `cleaned_titanic.csv` - Cleaned dataset
-- `README.md` - Project documentation3##
+- `original_titanic.csv` - Original Titanic dataset
+- `cleaned_titanic.csv` - Cleaned Titanic dataset
+- `Titanic_EDA_Task2.ipynb` - Exploratory Data Analysis notebook
+- `README.md` - Project documentation
