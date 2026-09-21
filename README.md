@@ -1,13 +1,10 @@
-# Titanic Dataset Cleaning & Exploratory Data Analysis Project
+# Titanic Dataset Cleaning Project
 
 ## Project Overview
 
-This project demonstrates data cleaning and exploratory data analysis (EDA) using Python and Pandas on the Titanic dataset.
+This project demonstrates data cleaning using Python and Pandas on the Titanic dataset.
 
-The project is divided into two tasks:
-
-- Task 1 – Data Cleaning
-- Task 2 – Exploratory Data Analysis (EDA)
+The dataset was checked for missing values, duplicate records, data types, and categorical values.
 
 ## Dataset
 
@@ -17,13 +14,8 @@ The Titanic dataset was obtained from the public Seaborn dataset repository.
 
 - Python
 - Pandas
-- NumPy
-- Matplotlib
-- Seaborn
 - Google Colab
 - GitHub
-
-# Task 1 – Data Cleaning
 
 ## Data Quality Checks
 
@@ -62,31 +54,12 @@ After cleaning:
 - Missing values: 0
 - Duplicate records: 0
 
-# Task 2 – Exploratory Data Analysis (EDA)
+The cleaned dataset is available as:
 
-This task focuses on Exploratory Data Analysis of the Titanic dataset using Python.
-
-## Analysis Performed
-
-- Survival analysis
-- Gender and passenger class analysis
-- Age and fare analysis
-- Embarkation analysis
-- Family-size analysis
-- Correlation analysis
-- Outlier analysis
-- Data visualization
-- Key insights and conclusions
-
-## Task 2 Notebook
-
-The complete EDA analysis is available in:
-
-`Titanic_EDA_Task2.ipynb`
+`cleaned_titanic.csv`
 
 ## Files
 
 - `original_titanic.csv` - Original Titanic dataset
 - `cleaned_titanic.csv` - Cleaned Titanic dataset
-- `Titanic_EDA_Task2.ipynb` - Exploratory Data Analysis notebook
 - `README.md` - Project documentation
